@@ -72,7 +72,7 @@ namespace Chat2._0
             }
             else
             {
-                MessageBox.Show("Неверные данные!");
+                MessageBox.Show("Неверные данные");
             }
 
         }
