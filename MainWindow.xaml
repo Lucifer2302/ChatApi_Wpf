@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chat2._0"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized"  >
     <Grid>
+        
         <StackPanel>
             <TextBlock Text="Login"/>
             <TextBox  Name="LoginTb"/>
@@ -15,6 +16,7 @@
             <Button x:Name="LiginTb" Content="Login" Click="Signin"/>
             <CheckBox Name="SaveCheck" Content="Запомнить меня" IsChecked="True"/>  
         </StackPanel>
-        
+
+        <Button Content="Назад" Click="Button_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="25"/>
     </Grid>
 </Window>

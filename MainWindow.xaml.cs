@@ -82,5 +82,11 @@ namespace Chat2._0
             public string password { get; set; }
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Osnovnoe osnovnoe = new Osnovnoe();
+            osnovnoe.Show();
+            this.Close();
+        }
     }
 }
